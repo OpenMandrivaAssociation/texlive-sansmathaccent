@@ -55,3 +55,12 @@ fixes the positioning of such accents when the default font
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120429-2
++ Revision: 813748
+- Update to latest release.
+- Import texlive-sansmathaccent
+- Import texlive-sansmathaccent
+
