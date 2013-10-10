@@ -1,12 +1,12 @@
-# revision 26200
+# revision 30187
 # category Package
 # catalog-ctan /fonts/sansmathaccent
-# catalog-date 2012-04-29 00:06:22 +0200
+# catalog-date 2013-04-30 15:48:45 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-sansmathaccent
-Version:	20120429
-Release:	2
+Version:	20130430
+Release:	1
 Summary:	Correct placement of accents in sans-serif maths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/sansmathaccent
@@ -40,6 +40,16 @@ fixes the positioning of such accents when the default font
 %{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi17.tfm
 %{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 %{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
+%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi10.tfm
+%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi12.tfm
+%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi17.tfm
+%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi8.tfm
+%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi9.tfm
+%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi10.vf
+%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi12.vf
+%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi17.vf
+%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi8.vf
+%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi9.vf
 %{_texmfdistdir}/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 %{_texmfdistdir}/tex/latex/sansmathaccent/sansmathaccent.sty
 %doc %{_texmfdistdir}/doc/fonts/sansmathaccent/README
@@ -55,12 +65,3 @@ fixes the positioning of such accents when the default font
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120429-2
-+ Revision: 813748
-- Update to latest release.
-- Import texlive-sansmathaccent
-- Import texlive-sansmathaccent
-
