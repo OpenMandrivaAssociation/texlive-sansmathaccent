@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-sansmathaccent
 Version:	20130430
-Release:	5
+Release:	6
 Summary:	Correct placement of accents in sans-serif maths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/sansmathaccent
