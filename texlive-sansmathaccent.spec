@@ -1,9 +1,3 @@
-# revision 30187
-# category Package
-# catalog-ctan /fonts/sansmathaccent
-# catalog-date 2013-04-30 15:48:45 +0200
-# catalog-license lppl1.3
-# catalog-version undef
 Name:		texlive-sansmathaccent
 Version:	20170414
 Release:	1
@@ -34,27 +28,11 @@ fixes the positioning of such accents when the default font
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/map/dvips/sansmathaccent/sansmathaccent.map
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi12.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi17.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi10.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi12.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi17.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi8.tfm
-%{_texmfdistdir}/fonts/tfm/public/sansmathaccent/mathkerncmssxi9.tfm
-%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi10.vf
-%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi12.vf
-%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi17.vf
-%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi8.vf
-%{_texmfdistdir}/fonts/vf/public/sansmathaccent/mathkerncmssxi9.vf
-%{_texmfdistdir}/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-%{_texmfdistdir}/tex/latex/sansmathaccent/sansmathaccent.sty
-%doc %{_texmfdistdir}/doc/fonts/sansmathaccent/README
-%doc %{_texmfdistdir}/doc/fonts/sansmathaccent/sansmathaccent.pdf
-%doc %{_texmfdistdir}/doc/fonts/sansmathaccent/sansmathaccent.tex
+%{_texmfdistdir}/fonts/map/dvips/sansmathaccent
+%{_texmfdistdir}/fonts/tfm/public/sansmathaccent
+%{_texmfdistdir}/fonts/vf/public/sansmathaccent
+%{_texmfdistdir}/tex/latex/sansmathaccent
+%doc %{_texmfdistdir}/doc/fonts/sansmathaccent
 
 #-----------------------------------------------------------------------
 %prep
