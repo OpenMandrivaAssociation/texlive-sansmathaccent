@@ -1,5 +1,5 @@
 Name:		texlive-sansmathaccent
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Correct placement of accents in sans-serif maths
 Group:		Publishing
