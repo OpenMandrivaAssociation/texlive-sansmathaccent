@@ -3,7 +3,7 @@ Version:	53628
 Release:	2
 Summary:	Correct placement of accents in sans-serif maths
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/sansmathaccent
+URL:		https://www.ctan.org/tex-archive/fonts/sansmathaccent
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sansmathaccent.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sansmathaccent.doc.r%{version}.tar.xz
