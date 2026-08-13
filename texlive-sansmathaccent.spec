@@ -12,7 +12,8 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/sansmathaccent.r
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/sansmathaccent.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 Sans serif maths (produced by the beamer class or the sfmath package)
@@ -21,3 +22,10 @@ positioning of such accents when the default font (cmssi) is used for
 sans serif maths. It will have no effect if used in a document that does
 not use the beamer class or the sfmath package.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from sansmathaccent:
+Map sansmathaccent.map
+TL_DROPIN_EOF
